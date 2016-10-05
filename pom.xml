@@ -33,7 +33,7 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>4.3.3.RELEASE</version>
 		</dependency>
-		<!-- mybatis 版本太高的话MetaObject.forObject()方法被重写，新增了参数-->
+		<!-- mybatis 版本太高的话MetaObject.forObject()方法被重写，新增了参数 -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
@@ -103,6 +103,12 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>4.0.0-b01</version>
+		</dependency>
+		<!-- log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
 		</dependency>
 	</dependencies>
 	<build>
