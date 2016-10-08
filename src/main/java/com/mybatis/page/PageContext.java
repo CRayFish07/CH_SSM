@@ -4,7 +4,7 @@ package com.mybatis.page;
 /**
  * 用来传递列表对象的ThreadLocal数据
  * 
- * @author jeff he
+ * @author com chen
  *
  */
 public class PageContext {

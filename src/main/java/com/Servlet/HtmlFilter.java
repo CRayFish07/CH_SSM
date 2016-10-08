@@ -11,10 +11,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
 /**
- * 过滤提交表单中的有安全隐患的字符串，以防止SQL注入 使用方法：在Filter映射中加入2个参数
- * 参数1：delete，用于指定被过滤掉的词汇，用空格分开，例如：delete insert 参数2：需要过滤的表单参数名，用空格分开，例如：user
- * pass
- * 
+ * 防止html注入
  * @author chen
  * @version 1.0
  */
